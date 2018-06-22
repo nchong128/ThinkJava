@@ -25,11 +25,5 @@ public class Scanners {
         birthDate = in.nextLine();
         System.out.println("You were born on a " + birthDate);
 
-        
-
-        
-        
-
-
     }
 }
