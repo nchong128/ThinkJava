@@ -10,6 +10,7 @@ public class MathOp {
         double radians = Math.toRadians(angle);
         double height = Math.sin(angle);
 
+        // Basically the integer type but just longer
         long x = Math.round(height);
 
         System.out.println(x);

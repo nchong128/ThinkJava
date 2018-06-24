@@ -6,7 +6,7 @@
 // Both void -> Do not return a result 
 // main has a single parameter called args, with type String[]
 // Means that whoever invokes main must provide an array of strings
-// newLine has no parameters, needs to arguments
+// newLine has no parameters, needs no arguments
 // Also in the same class as main so don't have to specify the class name
 
 public class NewLine {
