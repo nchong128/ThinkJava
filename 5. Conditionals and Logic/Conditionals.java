@@ -1,6 +1,6 @@
-// Can use condiitonals to react accordingly to circumstances
+// Can use conditonals to react accordingly to circumstances
 // Can use if, else and else if
-// Can create boolean flags to signify if something kis true or false
+// Can create boolean flags to signify if something i true or false
 
 import java.util.Scanner;
 
