@@ -160,6 +160,7 @@ public class Intro {
             - Wrapper class for each primitive value exists
             - char -> Character, int -> Integer, Boolean, Long, Double
             - Each Wrapper class has constants of the min and max value, useful for setting as a base value
+            - Acquired through Integer.MIN_VALUE and Integer.MAX_VALUE
          */
 
          // Provides methods to convert strings to other types
