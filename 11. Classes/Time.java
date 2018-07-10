@@ -186,7 +186,7 @@ public class Time {
             - they do not modify the parameters
             - they don't have an side effects (e.g. printing)
             - the return value only depends on the parameters, not on any other state
-        - This is known as a modifier
+        - The increment is known as a modifier
             - Usually void methods, sometimes returning a refrence to the object they modify
             - More efficient as no new objects created but more error-prone
             - When objects are aliased, the effects of modifiers can be confusing
