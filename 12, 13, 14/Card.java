@@ -42,12 +42,6 @@ public class Card {
      * Suits determined to be of higher value than rank
      */
     public int compareTo(Card that) {
-        if (this.rank == 1 && that.rank == 13) {
-            return 1;
-        }
-        if (this.rank == 13 && that.rank == 1) {
-            return -1;
-        }
         if (this.suit < that.suit) {
             return -1;
         }
