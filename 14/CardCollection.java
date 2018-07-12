@@ -17,7 +17,7 @@ import java.util.Random;
 public class CardCollection {
     // cards is an ArrayList of Card objects
     private String label;
-    private ArrayList<Card> cards;
+    public ArrayList<Card> cards;
 
     // cards initialised with an empty ArrayList
     public CardCollection(String label) {
@@ -64,6 +64,10 @@ public class CardCollection {
     // Need to use methods get and set to access ArrayList
     public Card getCard(int i) {
         return this.cards.get(i);
+    }
+
+    public String getLabel() {
+        return this.label;
     }
 
     // Method to get the last card without removal
