@@ -2,7 +2,7 @@ import java.util.Random;
 public class Deck {
     // Create a Random object as a class variable
     public final static Random random = new Random();
-    public Card[] cards;
+    private Card[] cards;
 
     public Deck(int n) {
         this.cards = new Card[n];
@@ -24,6 +24,15 @@ public class Deck {
         for (int i = 0; i < this.cards.length; i++) {
             System.out.println(this.cards[i]);
         }
+    }
+    
+    // Instance method that returns all the Cards in the Deck as a string
+    public String toString() {
+        String result = "";
+        for (int i  = 0; i < this.cards.length; i++) {
+            result += this.cards[i] + "\n";
+        }
+        return result;
     }
 
     // Helper methods to the shuffle method
@@ -68,6 +77,18 @@ public class Deck {
             int lowerI = indexLowest(i, this.cards.length-1);
             swapCards(i, lowerI);
         }
+    }
+
+    public Deck subdeck(int low, int high) {
+        Deck sub = new Deck(high - low + 1);
+        for (int i = 0; i < sub.cards.length; i++) {
+            sub.cards[i] = this.cards[low + i];
+        }
+        return sub;
+    }
+
+    public void mergeSort() {
+        
     }
 
 }

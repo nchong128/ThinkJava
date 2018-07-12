@@ -8,7 +8,7 @@ public class Card {
      * ALL CAPS naming convention
      * Do not need to be created everytime methods are called, also needed in other methods and classes
      * Array variables are final and the strings are immutable, so it can be public
-     * There is only one instance of a class variable, no matter how many objects therea re
+     * There is only one instance of a class variable, no matter how many objects there are
      */
 
     // Zeroth element not used so that Ace is assigned to 1
