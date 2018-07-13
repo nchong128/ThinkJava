@@ -61,6 +61,14 @@ public class CardCollection {
         }
     }
 
+    public void dealAll(CardCollection that) {
+        int size = size();
+        for (int i = 0; i < size; i++) {
+            Card card = popCard();
+            that.addCard(card);
+        }
+    }
+
     // Need to use methods get and set to access ArrayList
     public Card getCard(int i) {
         return this.cards.get(i);
