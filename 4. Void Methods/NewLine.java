@@ -31,7 +31,5 @@ public class NewLine {
     --Flow of execution--
     Execution always begins at the first statement of main
     Statements executed one at a time in order
-    Goes through detours like other languages
-
-    
+    Goes through detours like other languages    
  */

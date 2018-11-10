@@ -16,10 +16,10 @@ public class Exercise22 {
         System.out.println(secondsRemaining);
 
         System.out.println("Percentage of day elapsed: ");
+
         double totalSeconds = (secondsElapsed + secondsRemaining);
         double percentElapsed = 100 * (secondsElapsed / totalSeconds);
         System.out.println(percentElapsed);
-
 
     }
 }

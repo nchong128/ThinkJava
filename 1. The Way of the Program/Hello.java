@@ -9,6 +9,7 @@
 public class Hello {
     public static void main(String[] args) {
         // Generates some output
-        System.out.println("Hello\nWorld!");
+        System.out.print("Hello World!");
+        System.out.println(" My name is Nicholas");
     }
 }

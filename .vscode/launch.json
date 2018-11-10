@@ -6,6 +6,26 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Relationals",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Relationals",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Modulus",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Modulus",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch)-Client",
             "request": "launch",
             "cwd": "${workspaceFolder}",

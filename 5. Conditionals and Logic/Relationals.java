@@ -5,7 +5,7 @@
     x < y
     x >= y 
     x >= y
-
+    
     - Always returns a Boolean, as either true or false
     - Two sides of the operator have to be compatible
         - Int and String cannot be compared

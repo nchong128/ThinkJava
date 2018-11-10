@@ -24,7 +24,7 @@ public class Intro {
         
         // Characters work like other primitive types
         // Character literals in single quotes, string literals in double quotes
-        // Escape sequences (like \t) can also be in single quotes
+        // Escape sequen ces (like \t) can also be in single quotes
         if (letter == 'b') {
             System.out.println("Yes");
         }

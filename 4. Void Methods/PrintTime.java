@@ -4,9 +4,7 @@ public class PrintTime {
     // Declare type for all variables individually, unlike in variable declarations
 
     public static void printTime(int hour, int minute) {
-        System.out.print(hour);
-        System.out.print(":");
-        System.out.println(minute);
+        System.out.printf("%d:%d \n", hour, minute);
     }
 
     public static void main(String[] args) {
